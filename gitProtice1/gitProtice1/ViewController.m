@@ -18,6 +18,13 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor orangeColor];
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    
+    button.backgroundColor = [UIColor purpleColor];
+    
+    [self.view addSubview:button];
+    
 }
 
 
